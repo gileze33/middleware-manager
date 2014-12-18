@@ -1,6 +1,6 @@
 {
   "name": "middleware-manager",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Super simple name based middleware getter/setter so you can decouple your app",
   "main": "index.js",
   "scripts": {
