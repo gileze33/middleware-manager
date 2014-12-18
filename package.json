@@ -1,0 +1,11 @@
+{
+  "name": "middleware-manager",
+  "version": "0.0.0",
+  "description": "Super simple name based middleware getter/setter so you can decouple your app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "gileze33",
+  "license": "ISC"
+}
