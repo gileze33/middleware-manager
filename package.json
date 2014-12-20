@@ -1,11 +1,15 @@
 {
   "name": "middleware-manager",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Super simple name based middleware getter/setter so you can decouple your app",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "gileze33",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gileze33/middleware-manager"
+  },
+  "author": "Giles Williams",
   "license": "ISC"
 }
