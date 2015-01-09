@@ -24,12 +24,12 @@ MiddlewareManager.prototype.register = function(identifier, method) {
 };
 
 MiddlewareManager.prototype.get = function(identifier) {
-    if(typeof(identifier) == 'array') {
+    if(typeof(identifier) !== 'string') {
         // return an array
         var output = [];
         
         for(var i=0; i<identifier.length; i++) {
-            output.push(this.retrieve(identifier));
+            output.push(this.retrieve(identifier[i]));
         }
         
         return output;
