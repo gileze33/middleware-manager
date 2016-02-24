@@ -11,5 +11,9 @@
     "url": "https://github.com/gileze33/middleware-manager"
   },
   "author": "Giles Williams",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^1.8.2",
+    "typings": "^0.6.8"
+  }
 }
