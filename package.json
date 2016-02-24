@@ -4,7 +4,8 @@
   "description": "Super simple name based middleware getter/setter so you can decouple your app",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc -p .",
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,8 @@
   "author": "Giles Williams",
   "license": "ISC",
   "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5",
     "typescript": "^1.8.2",
     "typings": "^0.6.8"
   }

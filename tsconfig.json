@@ -2,10 +2,11 @@
   "compilerOptions": {
     "target": "es5",
     "module": "commonjs",
-    "sourceMap": true,
-		"declaration": true
+    "inlineSourceMap": true
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "typings/browser",
+    "typings/browser.d.ts"
   ]
 }

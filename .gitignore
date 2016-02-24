@@ -1,8 +1,7 @@
 **/.DS_Store
 node_modules/
 coverage/
-**.js
-**.map
-**.log
-*.d.ts
-!typings/**/*.d.ts
+*.js
+*.log
+
+typings/
