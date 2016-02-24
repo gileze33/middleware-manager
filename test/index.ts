@@ -10,5 +10,8 @@ describe('middleware-manager', () => {
     });
 
     expect(mw.get('test')(null, null)).to.equal('response');
+
+    mw.register('test2', () => () => 'response2');
+    expect(mw.get('test2', [])(null, null)).to.equal('response2');
   });
 });
